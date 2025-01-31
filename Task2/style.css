@@ -1,0 +1,102 @@
+body,
+html {
+  background-image: linear-gradient(
+    to right,
+    rgb(255, 0, 191),
+    rgb(0, 255, 200)
+  );
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  overflow-x: hidden;
+  max-width: 1360px;
+  margin: auto;
+}
+
+.wel {
+  font-size: 300%;
+}
+
+.pr {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: rgb(255, 208, 0);
+  font-size: 150%;
+}
+
+.frtext {
+  color: black;
+}
+
+.hire {
+  text-decoration: none;
+  border: 2px dashed black;
+  border-radius: 11px;
+  background-color: red;
+  color: white;
+  padding: 8px;
+}
+
+.hire:hover {
+  color: red;
+  background-color: white;
+}
+
+.fblock {
+  display: flex;
+}
+
+.widthselector {
+  width: 50%;
+  padding: 2%;
+}
+
+.widthselector img {
+  width: 85%;
+}
+
+.resume {
+  text-decoration: none;
+  border: 2px dashed black;
+  color: purple;
+  border-radius: 11px;
+  padding: 8px;
+  background-image: linear-gradient(orange, yellow);
+}
+
+.fulclass {
+  color: brown;
+  font-size: 160%;
+  font-weight: 490;
+}
+
+.fblclass {
+  font-size: 140%;
+  font-weight: 350;
+  color: indigo;
+}
+
+.shadow {
+  box-shadow: 15px 15px 20px black;
+  background-color: gold;
+  margin: 8px;
+  border-left: 10px solid rgb(32, 141, 50);
+  border-radius: 10px;
+}
+
+.tablecls {
+  width: 90%;
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+
+td,
+th {
+  text-align: center;
+  border: 2px solid black;
+  padding: 1%;
+}
+
+td {
+  font-weight: 600;
+}
