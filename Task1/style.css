@@ -1,0 +1,663 @@
+/*-------- Common Styles/Utilities --------*/
+
+body {
+    font-family: 'Poppins';
+    background-color: #AAAAAA;
+    width: 100%;
+    max-width: 1240px;
+    margin: 0px auto;
+}
+
+.whole {
+    width: 95%;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    position: relative;
+    left: 3%;
+    background-color: white;
+}
+
+.webmenu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.influence {
+    margin-top: 3%;
+    margin-left: 8%;
+}
+
+.genuin-menu {
+    position: relative;
+    top: 20px;
+    right: 6%;
+}
+
+.genuin-menu a {
+    list-style: none;
+    text-decoration: none;
+    white-space: nowrap;
+    font-size: 20px;
+    margin-left: 12px;
+}
+
+.fa-magnifying-glass {
+    position: relative;
+    top: 3.5px;
+}
+
+.fa-cart-plus {
+
+    position: relative;
+    top: 7px;
+}
+
+/*------------ We don't use mobile-menu in Web-view section ------------*/
+.mobilemenu {
+
+    display: none;
+    justify-content: space-between;
+}
+
+
+/* --------start-cam block styles-------- */
+
+.start-cam {
+    display: flex;
+    padding: 3px 8%;
+}
+
+.start,
+.camera {
+    width: 50%;
+}
+
+.start h1 {
+    font-size: 52px;
+}
+
+.lorem16 {
+    font-size: 16px;
+    font-weight: 700;
+    position: relative;
+    bottom: 10%;
+    color: lightslategray;
+}
+
+.start button {
+    border: 1px solid #E02C6D;
+    border-radius: 15px;
+    padding: 8px;
+    position: relative;
+    bottom: 40px;
+    color: #FFFFFF;
+    background-color: #E02C6D;
+}
+
+.fa-arrow-right-long {
+    position: relative;
+    top: 2px;
+    right: 3px;
+}
+
+.camera img {
+    width: 440px;
+    height: 414px;
+    margin-left: 18%;
+    margin-top: 4%;
+}
+
+/* ---------Logo-section block style --------*/
+
+.Logo-section {
+
+    position: relative;
+    left: 8%;
+    margin-top: 3%;
+
+}
+
+.logo {
+    display: flex;
+    padding: 20px;
+    width: 83%;
+    border-top: 0.1px solid grey;
+    border-bottom: 0.2px solid grey;
+}
+
+.four-img-block {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+}
+
+
+.three-img-block {
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+
+.alibaba,
+.amazon,
+.daraz,
+.ebay,
+.rakuten,
+.walmart,
+.target {
+    margin-left: 40px;
+    height: 30px;
+}
+
+.populer-collection {
+    background-color: #FFFFFF;
+}
+
+.populer-collection h2 {
+    text-align: center;
+    font-size: 28px;
+}
+
+/*---------- Populer collection style---------- */
+
+.populer-collection {
+    margin-top: 5%;
+}
+
+.collections {
+    display: grid;
+    grid-template-columns: repeat(3, 25%);
+    row-gap: 25px;
+    column-gap: 44px;
+    position: relative;
+    left: 7.6%;
+}
+
+.collection {
+    box-shadow: 3px 3px 3px grey;
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 303px;
+    height: 398px;
+    padding: 6px;
+
+}
+
+.collection img {
+    display: flex;
+    align-items: center;
+    width: 300px;
+    height: 256px;
+}
+
+.collection h3 {
+    margin-top: 3px;
+}
+
+.collection p {
+    position: relative;
+    bottom: 15px;
+}
+
+.ratings {
+    display: flex;
+    align-items: center;
+    position: relative;
+    bottom: 14%;
+}
+
+.fa-star,
+.fa-star-half-stroke {
+    font-size: 13px;
+    color: orange;
+}
+
+.ratings p {
+    margin-left: 3%;
+    margin-top: 46px;
+    color: gray;
+    font-size: 12px;
+}
+
+.collection h5 {
+    position: relative;
+    bottom: 25%;
+    color: grey;
+    font-size: 11px;
+}
+
+.collection h6 {
+    font-size: 14px;
+    color: #E02C6D;
+    position: relative;
+    bottom: 25%;
+    left: 70%;
+}
+
+.collection h6 .fa-arrow-right-long {
+    margin-left: 3%;
+}
+
+/*-------- Mobile-wire-section style --------*/
+
+.mobile-wire-section {
+    margin-top: 10%;
+    display: flex;
+    margin-left: 8%;
+}
+
+.mobile-wire-img {
+    width: 404px;
+    height: 270px;
+}
+
+.featured-product {
+    margin-top: 0.4%;
+    margin-left: 8%;
+}
+
+.featured-product h2 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.featured-product h5 {
+    color: #6C6C6C;
+    font-size: 16px;
+}
+
+.featured-product button {
+
+    border: 1px solid #E02C6D;
+    padding: 8px;
+    color: #FFFFFF;
+    background-color: #E02C6D;
+}
+
+/*---------- Footer-section style ----------*/
+
+footer {
+    margin-top: 6%;
+    height: 180px;
+}
+
+.final-section {
+    color: white;
+    background-color: #0A0826;
+    text-align: center;
+    padding-top: 18px;
+    height: 180px;
+}
+
+
+.final-section h3 {
+    font-size: 24px;
+}
+
+.copyright {
+    position: relative;
+    bottom: 23px;
+    font-size: 14px;
+}
+
+.linking-section i {
+    margin-left: 1%;
+    position: relative;
+    bottom: 25px;
+    right: 6px;
+}
+
+/* -----------------------------Media quries section----------------------- -------------*/
+
+@media only screen and (max-width:688px) {
+
+    body {
+        width: 100%;
+        position: relative;
+        left: -3.3%;
+    }
+
+    html,
+    .whole {
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+        padding: 0px;
+        overflow-x: hidden;
+    }
+
+
+    /*---------- Menu bar style---------- */
+
+    .webmenu {
+        display: none;
+    }
+
+
+    .mobilemenu {
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    .fa-cart-plus,
+    .fa-bars {
+        font-size: 23px;
+    }
+
+
+    .fa-bars {
+        margin-left: 14px;
+
+    }
+
+
+    .mobilemenu div h2 {
+        font-size: 22px;
+        position: relative;
+        right: 8px;
+        bottom: 3px;
+    }
+
+    .fa-cart-plus {
+        margin-bottom: 16px;
+        position: relative;
+        right: 20px;
+
+    }
+
+    /*-------- Start-cam section style --------*/
+
+    .start-cam {
+        flex-direction: column-reverse;
+
+    }
+
+    .start h1 {
+        font-size: 26px;
+        width: 100%;
+        text-align: center;
+        position: relative;
+        left: 3%;
+
+    }
+
+    .start {
+        width: 100%;
+    }
+
+    .start>.lorem16 {
+        width: 100%;
+        font-size: 18px;
+        position: relative;
+        bottom: 20px;
+        text-align: center;
+    }
+
+    .start button {
+        margin-top: 22px;
+        margin-left: 25px;
+        height: 45px;
+        width: 80%;
+        font-size: 18px;
+    }
+
+    .camera img {
+        width: 257px;
+        height: 257px;
+        position: relative;
+        left: 4px;
+    }
+
+    /* --------Logo-section style --------*/
+
+
+    .Logo-section {
+        width: 93%;
+
+    }
+
+    .logo {
+        width: 60%;
+        position: relative;
+        left: 14px;
+        flex-direction: column;
+    }
+
+    .four-img-block {
+        grid-template-columns: repeat(4, 85px);
+        position: relative;
+        right: 50px;
+    }
+
+    .three-img-block {
+        grid-template-columns: repeat(3, 50%);
+        margin-top: 9%;
+        position: relative;
+        right: 8%;
+    }
+
+    .alibaba,
+    .amazon,
+    .daraz,
+    .ebay,
+    .rakuten,
+    .walmart,
+    .target {
+        margin-left: 20px;
+        height: 20px;
+    }
+
+    /*---------- Populer collection style---------- */
+
+    .populer-collection h2 {
+        position: relative;
+        top: 20px;
+        right: 2%;
+    }
+
+    .collection {
+        position: relative;
+        right: -14px;
+    }
+
+    .collections {
+        width: 10%;
+        grid-template-columns: repeat(1, 22%);
+        position: relative;
+        left: -2%;
+        margin-left: 6%;
+        row-gap: 17px;
+        margin-top: 50px;
+    }
+
+    /*---------- Mobile-wire-section style ----------*/
+
+    .mobile-wire-section {
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+
+    .mobile-wire-img>img {
+        position: relative;
+        width: 85%;
+        right: 13px;
+        top: 30px;
+    }
+
+    .featured-product h2 {
+
+        font-size: 24px;
+        text-align: center;
+        position: relative;
+        right: 40px;
+    }
+
+    .featured-product h5 {
+        width: 100%;
+        font-size: 16px;
+        text-align: center;
+        position: relative;
+        right: 12%;
+
+    }
+
+    .featured-product button {
+        height: 50px;
+        width: 50%;
+        font-size: 20px;
+        margin-left: 13%;
+    }
+
+    .final-section {
+        margin-top: 14%;
+    }
+}
+
+
+@media only screen and (min-width:689px) and (max-width:992px) {
+
+    body {
+        width: 100%;
+        position: relative;
+        left: - 0.9%;
+    }
+
+    .influence {
+        margin-top: 5%;
+        position: relative;
+        right: 4.8%;
+        font-size: 17px;
+    }
+
+    .genuin-menu {
+        font-size: 22px;
+        font-weight: 900;
+        padding-right: 24px;
+        position: relative;
+        right: -0.2%;
+    }
+
+    .mobilemenu {
+        display: none;
+    }
+
+    /* --------Start-cam section style-------- */
+
+    .start-cam {
+        flex-direction: column-reverse;
+    }
+
+    .camera img {
+        margin-top: 16%;
+        margin-left: 26%;
+    }
+
+    .start {
+        width: 100%;
+    }
+
+    .start h1 {
+        font-size: 65px;
+        text-align: center;
+        position: relative;
+        bottom: 30px;
+    }
+
+    .lorem16 {
+        font-size: 32px;
+        text-align: center;
+        position: relative;
+        bottom: 80px;
+    }
+
+    .start button {
+        height: 70px;
+        width: 50%;
+        font-size: 27px;
+        position: relative;
+        left: 24%;
+        bottom: 70px;
+    }
+
+    /* -------------Logo-section style -----------*/
+
+    .logo {
+        flex-direction: column;
+        position: relative;
+        bottom: 25px;
+        right: 2.5%;
+    }
+
+    .three-img-block {
+        margin-top: 3.5%;
+        margin-left: 3%;
+    }
+
+    /* ------------------Populer-collection style------------- */
+
+    .populer-collection h2 {
+        font-size: 35px;
+    }
+
+    .collections {
+        grid-template-columns: repeat(2, 43%);
+        margin-left: 4%;
+        position: relative;
+        left: -0.04%;
+    }
+
+    .collection h6 {
+        font-size: 23px;
+        position: relative;
+        left: 170%;
+    }
+
+    /* --------Mobile-wire section --------*/
+
+    .mobile-wire-section {
+        flex-direction: column-reverse;
+    }
+
+    .featured-product h2 {
+        font-size: 48px;
+        text-align: center;
+        margin-right: 20%;
+    }
+
+    .featured-product h5 {
+        font-size: 18px;
+        text-align: center;
+        position: relative;
+        right: 8%;
+        bottom: 30px;
+    }
+
+    .featured-product button {
+        height: 60px;
+        width: 40%;
+        font-size: 23px;
+        margin-left: 20%;
+        position: relative;
+        bottom: 26px;
+    }
+
+    .mobile-wire-img>img {
+        width: 160%;
+        margin-top: 8%;
+        position: relative;
+        right: 4%;
+    }
+
+    /* --------Final-section style---------- */
+
+    .final-section {
+        margin-top: 40%;
+    }
+
+}
